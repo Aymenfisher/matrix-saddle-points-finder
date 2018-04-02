@@ -1,4 +1,4 @@
-matrice=[[1,2,3],[0,5,3],[-1,-2,-1],[-1,-2,-1]]
+matrice=[[1,2,3],[0,5,3],[-1,-2,-1],[0,-7,1]]
 number_of_lines=len(matrice)
 number_of_columns=len(matrice[0])
 line=0
@@ -18,10 +18,10 @@ while line<number_of_lines:
 					line2+=1
 					break	
 				if line2==number_of_lines-1:
-					print "point-col found :"
-					print "ligne :",line+1
-					print "colonne: ",column+1
-					print "Valeur: ",maximum
+					print "saddle-point found :"
+					print "line :",line+1
+					print "colomn: ",column+1
+					print "Value: ",maximum
 					print '-'*6
 					line2+=1
 				line2+=1	
